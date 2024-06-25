@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Sayem Sayed</title>
+    <style>
+        .container2 {
+            display: flex;
+            width: 100%;
+            margin: 0;
+            align-items: center;
+            justify-content: center;
+            background: white;
+        }
+
+        .column {
+            flex: 50%;
+            padding: 20px;
+        }
+
+        .column img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 4px;
+        }
+
+        .social-icons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: left;
+        }
+
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .social-icons img {
+            width: 40px;
+            height: 40px;
+            object-fit: contain;
+        }
+
+        @media (max-width: 768px) {
+            .container2 {
+                flex-direction: column;
+            }
+
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+       
+            <div class="logo">
+                <img src="assets/logo.png" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">News</a></li>
+                    <li><a href="students.html">Students</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+       
+    </header>
+
+    <div class="container2">
+        <div class="column">
+            <img src="assets/sayem.png" alt="Syed Sayem">
+        </div>
+        <div class="column">
+            <h1>Syed Sayem</h1>
+            <p>As a Computer Science student and software developer, I am dedicated to continuous learning and
+                development in the field. My expertise includes building robust software solutions and advancing my
+                skills through hands-on projects and research.</p>
+            <div class="social-icons">
+                <a href="https://twitter.com" target="_blank"><img src="assets/twitter.png" alt="Twitter"></a>
+                <a href="https://facebook.com" target="_blank"><img src="assets/facebook.png" alt="Facebook"></a>
+                <a href="https://linkedin.com" target="_blank"><img src="assets/linkedin.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
