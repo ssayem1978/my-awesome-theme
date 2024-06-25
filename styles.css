@@ -16,43 +16,41 @@ body {
 }
 
 .container h2 {
-    /* margin-top: 20px;
-    margin-bottom: 10px; */
     text-align: center;
     margin: 0 !important;
     /* border-bottom: 1px solid black; */
 }
 
 
-.container .news-container{
+.container .news-container {
     /* position:absolute; */
     top: 10px;
     margin-bottom: 10px;
-    
+
 }
 
 /* Header */
 
 header {
-    background-image: linear-gradient(to right, #ff4500, #ffd700); 
+    background-image: linear-gradient(to right, #ff4500, #ffd700);
     color: #fff;
-    padding: 10px 0; 
-    height: 80px; 
+    padding: 10px 0;
+    height: 80px;
     display: flex;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 header .logo {
     padding: 0 20px;
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
 header .logo img {
     height: 60px;
-    width: auto; 
+    width: auto;
 }
 
 header nav {
@@ -69,26 +67,26 @@ header nav ul {
 }
 
 header nav ul li {
-    margin: 0 10px; 
+    margin: 0 10px;
 }
 
 header nav ul li a {
     color: #fff;
     text-decoration: none;
     transition: color 0.3s;
-    font-size: 20px; 
-    padding: 5px 10px; 
+    font-size: 20px;
+    padding: 5px 10px;
     border-radius: 4px;
 }
 
 header nav ul li a:hover {
-    background-color: rgba(220, 224, 3, 0.2); 
+    background-color: rgba(220, 224, 3, 0.2);
 }
 
 header nav ul li a.active {
-    color: #ffffff; 
-    background-color: rgba(255, 69, 0, 0.3); 
-    border-bottom: 2px solid #FFD700; 
+    color: #ffffff;
+    background-color: rgba(255, 69, 0, 0.3);
+    border-bottom: 2px solid #FFD700;
     border-radius: 2px;
 }
 
@@ -97,6 +95,7 @@ header nav ul li a.active {
         flex-direction: column;
         width: 100%;
     }
+
     header nav ul li {
         text-align: center;
         width: 100%;
@@ -122,12 +121,12 @@ header nav ul li a.active {
     border: 1px solid #ccc;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .news-image img {
-    width: 100%; 
-    height: 200px; 
+    width: 100%;
+    height: 200px;
     object-fit: cover;
 }
 
@@ -160,18 +159,22 @@ table {
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 th, td {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
 }
+
 th {
     background-color: #FFD700;
     color: white;
 }
+
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+
 tr:hover {
     background-color: #c2a604;
 }
