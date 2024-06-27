@@ -60,5 +60,5 @@ This theme is build with:-
 
 Sayed Sayem  - email@example.com
 
-Project Link: [https://github.com/ssayem1978/my-awesome-theme](https://github.com/ssayem1978/my-awesome-theme)
+Project Link: [http://localhost:63342/my-awesome-theme/index.html](http://localhost:63342/my-awesome-theme/index.html)
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
