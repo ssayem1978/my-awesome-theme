@@ -132,7 +132,7 @@
                 <label for="message">Message</label>
                 <textarea id="message" name="message"></textarea>
             </div>
-            <input type="submit" value="Submit" onclick="console.log('jdjsbdj')">
+            <input type="submit" value="Submit">
         </form>
     </div>
   
@@ -140,7 +140,6 @@
         document.addEventListener('DOMContentLoaded', function () {
             const form = document.getElementById('contactForm');
             form.addEventListener('submit', function (event) {
-                console.log("cliecked");
                 event.preventDefault();
                 const firstName = document.getElementById('firstName').value;
                 const lastName = document.getElementById('lastName').value;
