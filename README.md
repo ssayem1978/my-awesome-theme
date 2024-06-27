@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="#">
-    <img src="assets/logo.png" alt="Logo" width="80" height="80">
+    <img src="assets/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 </div>
 
@@ -28,19 +28,19 @@
 ## About The Project
 
 <a href="#">
-    <img src="assets/index-page.png" alt="Logo" width="1024" height="600">
+    <img src="assets/images/index-page.png" alt="Logo" width="1024" height="600">
   </a>
 
 <a href="#">
-    <img src="assets/student-page.png" alt="Logo" width="1024" height="600">
+    <img src="assets/images/student-page.png" alt="Logo" width="1024" height="600">
   </a>
 
 <a href="#">
-    <img src="assets/about-page.png" alt="Logo" width="1024" height="600">
+    <img src="assets/images/about-page.png" alt="Logo" width="1024" height="600">
   </a>
 
 <a href="#">
-    <img src="assets/contact-page.png" alt="Logo" width="1024" height="600">
+    <img src="assets/images/contact-page.png" alt="Logo" width="1024" height="600">
   </a>
 
 It's a multipurpose HTML CSS theme.
